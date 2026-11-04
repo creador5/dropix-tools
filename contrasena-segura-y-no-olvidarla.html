@@ -1,0 +1,66 @@
+<!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Cómo crear una contraseña segura y no olvidarla | Dropix Tools</title><meta name="description" content="Reglas simples para contraseñas que sí protegen tus cuentas, y cómo generarlas gratis sin que se guarden ni se envíen a ningún lado."><link rel="icon" href="icon-192.png"><link rel="manifest" href="manifest.webmanifest"><meta name="theme-color" content="#14213D"><link rel="canonical" href="https://creador5.github.io/dropix-tools/contrasena-segura-y-no-olvidarla.html">
+<meta property="og:type" content="article"><meta property="og:title" content="Cómo crear una contraseña segura y no olvidarla | Dropix Tools"><meta property="og:description" content="Reglas simples para contraseñas que sí protegen tus cuentas, y cómo generarlas gratis sin que se guarden ni se envíen a ningún lado."><meta property="og:url" content="https://creador5.github.io/dropix-tools/contrasena-segura-y-no-olvidarla.html"><meta name="robots" content="index,follow">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Cómo crear una contraseña segura y no olvidarla", "description": "Reglas simples para contraseñas que sí protegen tus cuentas, y cómo generarlas gratis sin que se guarden ni se envíen a ningún lado.", "inLanguage": "es", "datePublished": "2026-11-04", "dateModified": "2026-11-04", "mainEntityOfPage": "https://creador5.github.io/dropix-tools/contrasena-segura-y-no-olvidarla.html", "author": {"@type": "Organization", "name": "Dropix Tools"}, "publisher": {"@type": "Organization", "name": "Dropix Tools"}}</script>
+<style>
+:root{--bg:#F2F7FB;--card:#fff;--ink:#14213D;--muted:#5B6B86;--accent:#2F5BFF;--violet:#7A4DFF;--pink:#FF5C7A;--line:#D5E0EE;--ok:#117A4B;--err:#C62849;--glow:rgba(122,77,255,.18)}
+@media (prefers-color-scheme:dark){:root{--bg:#0B1222;--card:#141F38;--ink:#EAF0FB;--muted:#9BAAC4;--line:#2A3B5C;--ok:#4ADE9A;--err:#FF7A93;--glow:rgba(122,77,255,.28)}}
+*{box-sizing:border-box}html,body{margin:0}
+body{background:radial-gradient(900px 500px at 85% -10%,var(--glow),transparent 60%),radial-gradient(700px 400px at -10% 30%,rgba(47,91,255,.12),transparent 60%),var(--bg);color:var(--ink);font-family:"DM Sans",system-ui,sans-serif;line-height:1.5;min-height:100vh;display:flex;flex-direction:column}
+.wrap{width:100%;max-width:880px;margin:0 auto;padding:0 18px}
+.bar{padding:16px 0;display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--ink);font-family:"Bricolage Grotesque",system-ui,sans-serif;font-weight:800;font-size:24px;letter-spacing:-.03em}
+.brand img{width:44px;height:44px;animation:glow 3.2s ease-in-out infinite}
+nav{display:flex;gap:6px;flex-wrap:wrap}
+nav a{color:var(--muted);text-decoration:none;font-weight:600;font-size:14px;padding:7px 12px;border-radius:99px;border:1px solid transparent}
+nav a:hover{color:var(--ink)}nav a.on{color:#fff;background:linear-gradient(135deg,var(--accent),var(--violet))}
+main{flex:1;padding:18px 0 40px}
+h1{font-family:"Bricolage Grotesque",system-ui,sans-serif;font-weight:800;font-size:clamp(32px,7vw,50px);line-height:1.05;letter-spacing:-.035em;margin:10px 0 12px}
+h2{font-family:"Bricolage Grotesque",system-ui,sans-serif;font-size:26px;letter-spacing:-.02em;margin:6px 0 4px}
+.sub{color:var(--muted);font-size:17px;margin:0 0 22px;max-width:620px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:16px}
+.tool{display:block;text-decoration:none;color:inherit;background:var(--card);border:2px solid var(--line);border-radius:20px;padding:20px;transition:transform .2s,border-color .2s}
+.tool:hover{transform:translateY(-4px);border-color:var(--accent)}
+.tool .i{font-size:30px;width:54px;height:54px;border-radius:15px;display:grid;place-items:center;background:linear-gradient(135deg,var(--accent),var(--violet));margin-bottom:12px}
+.tool b{font-family:"Bricolage Grotesque",system-ui,sans-serif;font-size:20px}.tool p{margin:4px 0 0;color:var(--muted);font-size:15px}
+.panel{background:var(--card);border:2px solid var(--line);border-radius:20px;padding:20px;margin-top:14px}
+.tabs{display:flex;gap:6px;flex-wrap:wrap;margin:12px 0 0}
+.tabs button{background:transparent;color:var(--muted);border:1px solid var(--line);font-weight:700}
+.tabs button.on{background:var(--accent);color:#fff;border-color:var(--accent)}
+label{display:block;font-weight:600;font-size:14px;margin:12px 0 4px}
+input[type=text],input[type=number],input[type=tel],select,textarea{width:100%;font:inherit;font-size:16px;color:var(--ink);background:var(--bg);border:2px solid var(--line);border-radius:12px;padding:10px 12px}
+textarea{min-height:110px;resize:vertical}
+input:focus,select:focus,textarea:focus{outline:none;border-color:var(--accent)}
+input[type=file]{width:100%;padding:14px;border:2px dashed var(--line);border-radius:14px;background:transparent;color:var(--muted);font:inherit}
+input[type=range]{width:100%}
+.row{display:flex;gap:12px;flex-wrap:wrap}.row>*{flex:1;min-width:130px}
+button,.btn{font:inherit;font-weight:700;border:0;border-radius:12px;cursor:pointer;padding:11px 18px;background:linear-gradient(135deg,var(--accent),var(--violet));color:#fff;transition:transform .15s,opacity .15s}
+button:active{transform:scale(.97)}button:disabled{opacity:.55;cursor:wait}
+button.alt{background:transparent;color:var(--accent);border:2px solid var(--accent)}button.pink{background:var(--pink)}
+.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:16px}
+button:focus-visible,a:focus-visible,input:focus-visible{outline:3px solid var(--pink);outline-offset:2px}
+ul.files{list-style:none;margin:10px 0 0;padding:0}
+ul.files li{display:flex;align-items:center;gap:8px;padding:8px 10px;border:1px solid var(--line);border-radius:12px;margin-bottom:6px;font-size:14px}
+ul.files .n{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}ul.files .s{color:var(--muted);font-size:12px}
+ul.files button{padding:4px 10px;background:transparent;color:var(--muted);border:1px solid var(--line)}
+.msg{min-height:1.4em;margin-top:12px;font-weight:600;font-size:15px}.msg.ok{color:var(--ok)}.msg.err{color:var(--err)}
+.hint{color:var(--muted);font-size:13px;margin:6px 0 0}
+.out{word-break:break-all;background:var(--bg);border:2px solid var(--line);border-radius:12px;padding:12px;margin-top:12px;font-size:15px}
+canvas.prev{max-width:100%;max-height:340px;border-radius:12px;border:1px solid var(--line);background:repeating-conic-gradient(#8883 0 25%,transparent 0 50%) 50%/16px 16px;margin-top:12px}
+canvas.wave{width:100%;height:120px;border-radius:12px;background:var(--bg);border:1px solid var(--line);touch-action:none;cursor:crosshair;margin-top:10px}
+.radio{display:flex;gap:16px;flex-wrap:wrap}.radio label{display:flex;gap:6px;align-items:center;margin:6px 0;font-weight:500}.radio input{width:auto}
+footer{color:var(--muted);font-size:14px;text-align:center;padding:24px 18px}footer a{color:var(--muted)}
+@keyframes glow{0%,100%{filter:drop-shadow(0 4px 10px rgba(176,108,40,.35))}50%{filter:drop-shadow(0 6px 20px rgba(255,150,50,.85)) brightness(1.1)}}
+@media (prefers-reduced-motion:reduce){.brand img{animation:none}.tool{transition:none}}
+#jump{width:auto;max-width:210px;padding:7px 12px;font-size:14px;border-radius:99px}
+#install{padding:7px 14px;font-size:13px;border-radius:99px}#find{margin-bottom:6px}.cat{margin:24px 0 10px;font-weight:700;color:var(--muted);font-size:13px;text-transform:uppercase;letter-spacing:.07em}
+input[type=color]{width:100%;height:44px;border:2px solid var(--line);border-radius:12px;background:var(--bg);padding:2px}
+.line{display:grid;grid-template-columns:3fr 1fr 1fr auto;gap:8px;margin-bottom:8px}.line button,.prow button.x{padding:6px 12px;background:transparent;color:var(--muted);border:1px solid var(--line)}
+.prow{border:1px solid var(--line);border-radius:14px;padding:12px;margin-bottom:10px}.prow .row{margin-bottom:6px}
+iframe.pv{width:100%;height:480px;border:2px solid var(--line);border-radius:14px;background:#fff;margin-top:14px}
+.mem{display:grid;gap:8px;margin-top:14px}.mc{aspect-ratio:1;border-radius:14px;border:2px solid var(--line);background:linear-gradient(135deg,var(--accent),var(--violet));font-size:clamp(24px,6vw,40px);display:grid;place-items:center;color:#fff;cursor:pointer;padding:0}
+.mc.up{background:var(--card);color:var(--ink)}.mc.ok{background:var(--card);color:var(--ink);border-color:var(--ok)}
+.res li{flex-wrap:wrap}.res .s{white-space:nowrap}
+@media (max-width:560px){.line{grid-template-columns:1fr 1fr}.line input:first-child{grid-column:1/-1}}
+.tool-h1{font-family:'Bricolage Grotesque',system-ui,sans-serif;font-size:28px;letter-spacing:-.02em;margin:6px 0 4px}.guia{max-width:880px;margin:10px auto 0;padding:0 18px 20px}.guia h2,.prose h2{font-size:22px;margin:26px 0 8px;font-family:'Bricolage Grotesque',system-ui,sans-serif}.guia h3{font-size:17px;margin:16px 0 4px}.guia p,.guia li,.prose p,.prose li{line-height:1.65}.guia ol,.guia ul,.prose ul,.prose ol{padding-left:22px}.guia a,.prose a{color:var(--accent)}.flinks a{color:var(--muted)}.prose{max-width:760px;margin:0 auto;padding:10px 18px 30px}.prose h1{font-size:34px;margin:14px 0 10px}.warn{background:rgba(255,92,122,.12);border:1px dashed var(--pink);padding:6px 10px;border-radius:10px;display:inline-block}.nota{background:var(--card);border:2px solid var(--line);border-radius:14px;padding:12px 16px}
+[hidden]{display:none!important}
+</style></head><body><header class="wrap bar"><a class="brand" href="index.html"><img src="icon-192.png" width="44" height="44" alt="">Dropix Tools</a><nav><a href="index.html">Herramientas</a><a href="guias.html" class="on">Guías</a><a href="servicios.html">Servicios</a><a href="contacto.html">Contacto</a></nav></header><main class="wrap prose"><h1>Cómo crear una contraseña segura y no olvidarla</h1><p>Las contraseñas fáciles de adivinar, o repetidas en varias cuentas, son una causa frecuente de que una cuenta termine en manos de otra persona. Una buena contraseña es larga, aleatoria y distinta en cada cuenta. Como así no se puede memorizar, conviene crearla con un generador y guardarla en un lugar seguro.</p><h2>Qué hace buena a una contraseña</h2><ul><li>Es larga: para cuentas importantes, 16 caracteres o más.</li><li>Es aleatoria: sin nombres, fechas ni palabras que alguien pueda adivinar.</li><li>Es distinta en cada cuenta, para que si una se filtra las demás sigan a salvo.</li><li>El largo y que sea aleatoria importan más que llenarla de símbolos raros.</li></ul><h2>Paso a paso</h2><ol><li>Abre el <a href="generador-de-contrasenas.html">Generador de contraseñas</a>.</li><li>Elige el largo con la barra (16 o más para cuentas importantes).</li><li>Marca los tipos de caracteres que quieras: mayúsculas, minúsculas, números y símbolos.</li><li>Activa «Evitar parecidos» si vas a escribirla a mano, para no confundir la l, el 1, la O y el 0.</li><li>Toca «Copiar» y guárdala enseguida en un gestor de contraseñas.</li></ol><h2>Cómo no olvidarlas</h2><p>Un gestor de contraseñas las guarda por ti, y solo tienes que recordar una contraseña maestra, larga y que solo tú sepas. Ojo: la contraseña que genera esta herramienta no se guarda en ningún lado y desaparece al cerrar o recargar la página, así que cópiala y guárdala antes de usarla. Además, activa la verificación en dos pasos en tu correo y en tus cuentas importantes.</p><h2>Lo que no conviene hacer</h2><ul><li>Enviar tu contraseña por mensaje a otra persona.</li><li>Usar la misma en varias cuentas.</li><li>Basarla en tu nombre, tu fecha de nacimiento o tu número de teléfono.</li><li>Seguir usándola si crees que alguien la vio: cámbiala.</li></ul><h2>Preguntas frecuentes</h2><h3>¿Quién ve las contraseñas que se generan?</h3><p>Nadie. Se crean en tu navegador con números aleatorios y no se envían a ningún servidor.</p><h3>¿Qué significan los bits?</h3><p>Es una medida de lo difícil que es adivinar la contraseña por fuerza bruta: a más bits, más difícil. Se calcula con el largo y la cantidad de caracteres posibles.</p><p style="margin-top:22px"><a class="btn" style="display:inline-block;text-decoration:none" href="generador-de-contrasenas.html">Abrir el Generador de contraseñas →</a></p><h2>Otras guías</h2><ul><li><a href="compartir-wifi-con-codigo-qr.html">Cómo compartir tu WiFi con un código QR</a></li><li><a href="mandar-fotos-pesadas-por-whatsapp.html">Cómo mandar fotos pesadas por WhatsApp o correo</a></li><li><a href="guias.html">Ver todas las guías</a></li></ul></main><footer>Todo se procesa en tu dispositivo. · <span class="flinks"><a href="guias.html">Guías</a> · <a href="sobre.html">Sobre</a> · <a href="servicios.html">Servicios</a> · <a href="contacto.html">Contacto</a> · <a href="privacidad.html">Privacidad</a> · <a href="terminos.html">Términos</a></span></footer><script src="site-config.js"></script></body></html>

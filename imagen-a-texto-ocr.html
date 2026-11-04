@@ -391,7 +391,7 @@ iframe.pv{width:100%;height:480px;border:2px solid var(--line);border-radius:14p
 </main>
 <article class="guia"><h2>Cómo usar: Imagen a texto (OCR)</h2><p>El OCR (reconocimiento de texto) lee las letras de una imagen y las convierte en texto que puedes copiar. Sirve para capturas de pantalla, fotos de documentos o apuntes.</p><ol><li>Elige una imagen con texto.</li><li>Escoge el idioma (español, inglés o ambos).</li><li>Toca «Extraer texto» y espera: la primera vez descarga los datos del idioma, que pesan unos megas.</li><li>Revisa el resultado, cópialo o descárgalo como .txt.</li></ol><h2>Consejos</h2><ul><li>Funciona mejor con letra clara, buena luz y la imagen derecha.</li><li>Recorta la imagen para dejar solo la parte con texto.</li><li>Revisa siempre el resultado: puede confundir letras parecidas o números.</li></ul><h2>Preguntas frecuentes</h2><h3>¿Se sube mi imagen?</h3><p>No. El reconocimiento se hace en tu navegador. Lo único que se descarga son los programas y los datos del idioma.</p><h3>¿Por qué tarda la primera vez?</h3><p>Porque descarga los datos del idioma. Las siguientes veces es mucho más rápido.</p><h3>¿Lee letra a mano?</h3><p>Mal. Está pensado para texto impreso o de pantalla.</p><h2>Otras herramientas que te pueden servir</h2><ul><li><a href="herramientas-pdf.html">Herramientas de PDF</a></li><li><a href="herramientas-de-texto.html">Herramientas de texto</a></li><li><a href="comprimir-fotos.html">Comprimir fotos</a></li></ul><p class="nota">🔒 Todo se procesa en tu dispositivo: tus archivos no se envían a ningún servidor. <a href="privacidad.html">Más sobre privacidad</a>.</p></article>
 <footer>
-  Todo se procesa en tu dispositivo: tus archivos no se suben a ningún servidor. · <a href="#" id="wipe">Borrar mis datos guardados</a> · <a id="dropixLink" href="#" hidden></a><br><span class="flinks"><a href="sobre.html">Sobre</a> · <a href="servicios.html">Servicios</a> · <a href="contacto.html">Contacto</a> · <a href="privacidad.html">Privacidad</a> · <a href="terminos.html">Términos</a></span>
+  Todo se procesa en tu dispositivo: tus archivos no se suben a ningún servidor. · <a href="#" id="wipe">Borrar mis datos guardados</a> · <a id="dropixLink" href="#" hidden></a><br><span class="flinks"><a href="guias.html">Guías</a> · <a href="sobre.html">Sobre</a> · <a href="servicios.html">Servicios</a> · <a href="contacto.html">Contacto</a> · <a href="privacidad.html">Privacidad</a> · <a href="terminos.html">Términos</a></span>
 </footer>
 
 <script>window.DEFAULT_VIEW="ocr";</script>
@@ -1265,6 +1265,5 @@ $("ocrTxt").onclick = () => { const v = $("ocrOut").value; if (!v) return say("o
   if ("serviceWorker" in navigator && /^https?:$/.test(location.protocol)) navigator.serviceWorker.register("sw.js").catch(() => {});
 }
 </script>
-<script src="musica.js" defer></script>
 </body>
 </html>
