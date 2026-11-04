@@ -2,7 +2,7 @@
 window.SITE = {
   nombre: "Dropix Tools",
   responsable: "",        /* tu nombre o el de tu marca, por ejemplo: "Juan Pérez" */
-  email: "",              /* tu correo de contacto */
+  email: "soportedropixtools@gmail.com",              /* tu correo de contacto */
   whatsappCodigo: "",     /* código de país sin +, por ejemplo 51 */
   whatsapp: "",           /* tu número sin el código de país */
   url: "https://creador5.github.io/dropix-tools/"
